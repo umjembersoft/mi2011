@@ -1,0 +1,21 @@
+// nama : nuria sari
+// nim : 1100631005
+
+<?php
+
+class ProfilController extends Controller
+{
+	public function actionIndex()
+	{
+		$this->render('index');
+	}
+	
+	public function actionDosen(){
+		$model = new Dosen;
+		$this->render('dosen', array(
+			'model'=>$model
+		));	
+	}
+
+	
+}
