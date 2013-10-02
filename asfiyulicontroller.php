@@ -15,5 +15,4 @@ class ProfilController extends Controller
 	}
 
 	
-}
-?>
+} ?>
