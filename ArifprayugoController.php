@@ -9,7 +9,7 @@ class ProfilController extends Controller
 	
 	public function actionNama(){
 		$model = new Nama;
-		$this->render('arifprayugo', array(
+		$this->render('viewarifprayugo', array(
 			'model'=>$model
 		));	
 	}
